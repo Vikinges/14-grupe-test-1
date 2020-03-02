@@ -1,0 +1,46 @@
+.fon{
+    display: inline-block;
+    background-color: red;
+    width: 100%;
+    height: 100wh;
+    animation: fonb 5s ease 0s infinite;
+}
+
+h1{
+text-align: center;
+font-size: medium;
+color: darkblue;
+
+}
+p{
+    text-align: center;
+    font-size: 40px;
+color: darkcyan;
+
+
+animation: text 5s ease 0s infinite;
+}
+
+@keyframes text {
+0% {
+    margin-top: 10px;
+    opacity: 1;
+    color: blue;
+}
+100% {
+    margin-top: 300px;
+    opacity: 0;
+    color: black;
+}
+}
+@keyframes fonb{
+ 0%{
+     height: 100vh;
+background-color: brown;
+ }
+100%{
+    height: 50vh;
+    background-color: coral;
+}
+ 
+}
